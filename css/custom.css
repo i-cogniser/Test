@@ -1,0 +1,46 @@
+/* custom styles css  */
+
+.dib {
+    display: inline-block;
+  }
+  
+  .di {
+    display: inline;
+  }
+  
+  .db {
+    display: block;
+  }
+  
+  .dg {
+    display: grid;
+  }
+  
+  .dig {
+    display: inline-grid;
+  }
+  
+  .jcc {
+    justify-content: center;
+  }
+  .jse{
+    justify-self: end;
+  }
+  .jcsb{
+    justify-content: space-evenly;
+  }
+  
+  .acc {
+    align-content: center;
+  }
+  .aic{
+    align-items: center;
+  }
+  .asc{
+    align-items: center;
+  }
+  
+
+  .l-ch0:last-child{
+    margin: 0;
+  }
