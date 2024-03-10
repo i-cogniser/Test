@@ -44,3 +44,14 @@
   .l-ch0:last-child{
     margin: 0;
   }
+
+  .fc{
+    min-width: fit-content;
+  }
+
+  .tac{
+    text-align: center;
+  }
+  .lh{
+    line-height: 1.5;
+  }

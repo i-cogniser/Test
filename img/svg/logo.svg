@@ -7,7 +7,7 @@
     
     <linearGradient id="liner-grad" x1="22%" y1="0%" x2="78%" y2="100%">
         <stop offset="45%" style="stop-color: rgb(61, 61, 61)" />
-        <stop offset="100%" style="stop-color: rgb(1, 212, 0)" />
+        <stop offset="100%" style="stop-color: #75c32f" />
     </linearGradient>
 
     
