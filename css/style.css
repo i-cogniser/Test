@@ -11,6 +11,7 @@
 
 body {
   font-family: "Roboto";
+  background-color: #363636;
 }
 
 ul,
@@ -24,13 +25,11 @@ a {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(6, 1fr);
-  padding: 0 10px;
-
 }
 
 .header {
   display: grid;
-  grid-template-columns: .7fr repeat(5, 1fr);
+  grid-template-columns: .37fr repeat(5, 1fr);
   grid-template-rows: 1.3fr 0.7fr;
   grid-area: 1 / 1 / 2 / 7;
   height: 100%;
@@ -39,7 +38,7 @@ a {
 
 .header__logo {
   grid-area: 1 / 1 / 2 / 2;
-  margin: 5px 0 5px 15px;
+  margin: 5px 25px;
 }
 
 .header__menu-t {
@@ -48,36 +47,59 @@ a {
   grid-template-rows: 1fr;
   grid-area: 1 / 2 / 2 / 7;
 }
+.menu__l--p{
+  padding: 26px 22px 26px 10px;
+}
+.menu__l--after {
+  position: relative;
+  color: #fff;
+}
+
+.menu__l--after::after {
+  content: "";
+  position: absolute;
+  border: 5px solid transparent;
+  border-top: 5px solid rgb(0, 0, 0);
+  margin: 7px 3px;
+}
 
 .menu-tl {
   grid-area: 1 / 1 / 2 / 3;
-  margin: 0 20px 0 0;
 }
 
 .menu-tr {
   grid-area: 1 / 3 / 2 / 5;
+  margin: 0 25px 0 0;
 }
-.menu__i{
-  margin: 0 8px 0 0;
+
+
+.menu__l--h:hover {
+  cursor: pointer;
+  background-color: #004216;
 }
 
 .header__menu-b {
   grid-area: 2 / 1 / 3 / 7;
-  background-color: rgb(7, 2, 32);
+  background-color: rgb(37, 37, 44);
   height: 45px;
   text-transform: uppercase;
 }
-.icon-home{
-  margin: 0 0 0 10px;
-}
-.menu__l--w{
-color: white;
-}
-.menu__l--b{
 
-color: black;
-padding: 5px;
+.icon-home {
+  margin: 0 10px;
 }
+
+.menu__l--w {
+  color: white;
+  padding: 13px 7px 11px 7px;
+}
+.menu__l--w:hover{
+  background-color: #201f1f;
+}
+.menu__l--b {
+  color: black;
+}
+
 
 .main {
   display: grid;
@@ -108,4 +130,3 @@ padding: 5px;
 .footer-b {
   grid-area: 2 / 1 / 3 / 4;
 }
-
