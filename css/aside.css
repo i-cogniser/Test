@@ -1,0 +1,9 @@
+.aside {
+    grid-area: 2 / 6 / 6 / 7;
+  }
+
+  .aside__img{
+    display: block;
+    width: 100%;
+  }
+  

@@ -1,0 +1,46 @@
+.main {
+    display: grid;
+    grid-template-columns: 1.1fr repeat(4, 1fr);
+    grid-area: 2 / 1 / 6 / 6;
+    padding: 0 10px;
+    height: 85vh;
+}
+
+.main__title {
+    grid-row-start: 2;
+    display: block;
+    font-size: 32px;
+    font-weight: 300;
+    margin: 25px 0 57px;
+}
+
+.banner {
+    grid-row: 1;
+    margin: 17px 0 0;
+}
+
+.banner__img {
+    display: block;
+}
+
+.main__block-controls {
+    grid-row: 3;
+    display: block;
+    padding: 40px 0;
+    border-top: #d1d1d1 .5px solid;
+    border-bottom: #d1d1d1 .5px solid;
+}
+
+.block-controls__btn {
+    padding: 15px 25px;
+    background-color: #04aa6d;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn1 {
+    margin-left: 25px;
+}
+
+.btn2 {
+margin-left: 625px;}
